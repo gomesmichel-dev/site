@@ -1,0 +1,95 @@
+@media (max-width: 425px) {
+    body {
+        background-image: url(/assets/img/background.png);
+        max-width: 100%;
+        width: 100%;
+
+    }
+
+
+
+
+    
+header{
+    padding-top: 10%;
+
+}
+
+h2{
+    color: orangered;
+    font-size: 30px;
+    text-align: center;
+    font-family: ubuntu;
+
+    
+}
+
+.contatos{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+.vina{
+img{
+    display: flex;
+    justify-content: center;
+}
+    background-color: aqua;
+    padding: auto;
+}
+.naylla{
+    background-color: aqua;
+    padding: auto;
+img{
+    display: flex;
+    justify-content: center;
+icon{
+    display: flex;
+    flex-direction: row;
+}
+}
+}
+}
+header {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.container img {
+    width: 100%;
+    margin: none;
+    padding: none;
+    align-items: start;
+    
+}
+
+.icon {
+    width: 50px;
+}
+
+
+.ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .ubuntu-regular-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .ubuntu-bold-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
