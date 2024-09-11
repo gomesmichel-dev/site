@@ -1,0 +1,108 @@
+
+<ul>
+<li>Segunda</li>
+<p>16:100<br />17:10</p>
+<li>Terça</li>
+<p>18:00</p>
+<li>Quarta</li>
+<p>16:100<br />17:10</p>
+<li>Quinta</li>
+<p>18:00</p>
+<li>Sexta</li>
+<p>16:100<br />17:10</p>
+</ul>
+</div>
+<!--Horarios-->
+
+
+</header>
+
+    <div class="container">
+      <img src="/assets/img/fotoprincipal.jpg" alt="fundo" />
+    </div>
+
+    <h2>Contatos</h2>
+    <div id="contatos" class="contatos">
+      
+      <div class="vina">
+        <p>Personal</p>
+        <img src="/assets/img/vini.png" />
+        <p>Vinícius</p>
+        <div>
+        <div class="icon">
+          <a href=""><img class="wicon" src="/assets/img/wapp.png" /></a>
+          <a href=""><img class="iicon" src="/assets/img/inta.webp" /></a>
+        </div>
+        </div>
+      </div><!--vina-->
+      
+      <div class="naylla">
+        <p>Nutricionista</p>
+        <img src="/assets/img/naylla.png" />
+        <p>Naylla</p>
+        <div>
+        <div class="icon">
+          <a href=""><img class="wicon" src="/assets/img/wapp.png" /></a>
+          <a href=""><img class="iicon" src="/assets/img/inta.webp" /></a>
+        </div>
+        </div>
+      </div><!--Naylla-->
+    </div><!--Contatos-->
+
+
+
+    h2{
+        color: orangered;
+        font-size: 30px;
+        text-align: center;
+        font-family: ubuntu;
+    
+        
+    }
+    
+    .contatos{
+        background-color: aliceblue;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    .vina{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: aqua;
+        padding: auto;
+    }
+    .naylla{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: aqua;
+        padding: auto;
+    }
+    }
+    .icon{
+        display: flex;
+        flex-direction: row;
+    }
+    .iicon{
+        max-width: 15%;
+    
+    }
+    .wicon{
+        max-width: 40%;
+    
+    }
+    
+    header {
+        display: flex;
+        flex-direction: row;
+    
+    }
+    
+    .container img {
+        width: 100%;
+        margin: none;
+        padding: none;
+        align-items: start;
+        
+    }
